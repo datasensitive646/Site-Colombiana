@@ -1,0 +1,443 @@
+.containerConta {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/imagens-site/background.png");
+  background-repeat: no-repeat, no-repeat;
+}
+
+.scroll {
+  width: 100%;
+  max-height: 95vh;
+  overflow: auto;
+}
+
+.containerConentent {
+  height: 150px;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.containerConententTitle {
+  width: 250px;
+  padding: 0px;
+  text-align: center;
+  position: absolute;
+  margin-top: -15px;
+  background-color: white;
+}
+
+.containerBotao {
+  margin-top: 30px;
+}
+
+.btnEntrar {
+  width: 300px;
+  align-self: center;
+  padding: 10px;
+  border: 15px solid #fff;
+  border-radius: 35px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #ff9a16;
+  border: 1px solid #ff9a16;
+  margin-top: 120px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.btnEntrar:hover {
+  background-color: #ff9a16;
+  color: white;
+}
+
+.fields-container {
+  margin: 0 auto;
+}
+
+.headerConta {
+  height: 30px;
+  padding: 0px;
+}
+
+.imgLogo {
+  max-width: 100%;
+  height: 45px;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.footerConta {
+  width: 100%;
+  height: auto;
+}
+
+.iconSacola {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+}
+
+.containerTexto {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.containerTexto img {
+  margin-bottom: 5px;
+  margin-left: -5px;
+}
+
+.containerTexto strong {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.containerTexto span {
+  display: block;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.cards {
+  width: 550px;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+}
+
+.card {
+  width: 600px;
+  padding: 40px;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  height: auto;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.card a {
+  padding: 30px;
+  align-self: center;
+  color: 000;
+  text-decoration: none;
+}
+
+.card label {
+  margin-top: 10px;
+}
+
+.cardBorda {
+  height: auto;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerAreaInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardAreaInputs {
+  width: 90%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.inputCard {
+  border: 1px solid #bbb;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.inputCard:placeholder-shown {
+  border-color: #eb5757;
+}
+
+.inputCard:focus {
+  border: 1px solid #777;
+}
+
+.inputCard::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6c757d;
+  font-size: 13px;
+  font-style: italic;
+  opacity: 1;
+}
+
+.imgreCaptcha {
+  width: 300px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/* .cardAreaInputs {
+  border-bottom: 2px solid #a82d26;
+} */
+
+.cardAreaInputs input {
+  color: 333;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#textoSpan {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.btnEntrarConta {
+  width: 300px;
+  align-self: center;
+  padding: 10px;
+  border: 15px solid #fff;
+  border-radius: 35px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-top: 280px;
+  position: absolute;
+  background-color: #2f80ed;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #d2712a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #d2712a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.avisoCelular {
+  height: 40vh;
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.containerCheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+  height: 25px;
+  width: 25px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 2px solid #bbb;
+}
+
+/* On mouse-over, add a grey background color */
+.containerCheck:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheck input:checked ~ .checkmark {
+  background-color: transparent;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheck .checkmark:after {
+  left: 9px;
+  top: -10px;
+  width: 15px;
+  height: 28px;
+  border: solid green;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*================= checkbox tela login ======================== */
+.LabelCheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.LabelCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarkSpan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 1px solid #bbb;
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.LabelCheck input:checked ~ .checkmarkSpan {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkSpan:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.LabelCheck input:checked ~ .checkmarkSpan:after {
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  /* .avisoCelular {
+      display: block;
+   } */
+
+  .containerConta {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .avisoCelular {
+    display: none;
+  }
+
+  .cardBorda {
+    margin-top: 20px;
+  }
+  .scroll {
+  }
+  .card {
+    width: 100%;
+    padding: 10px;
+  }
+}

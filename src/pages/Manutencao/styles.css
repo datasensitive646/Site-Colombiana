@@ -1,0 +1,44 @@
+.headerError {
+  background-color: #333;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+
+.containerManutencao {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.containerManutencao button {
+  width: 90%;
+  height: 45px;
+  margin: auto;
+  margin-top: 40px;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f80ed;
+  display: flex;
+  color: white;
+  padding: 15px;
+}
+.containerManutencao a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .containerManutencao button {
+    width: 300px;
+  }
+
+  .headerError {
+    justify-content: center;
+  }
+}

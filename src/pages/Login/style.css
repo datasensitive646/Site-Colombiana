@@ -1,0 +1,115 @@
+.containerCenter{
+   min-height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 12px;  
+
+}
+
+.containerCenter a{
+   color: #333;
+}
+
+.login{
+   width: 450px;
+   padding-bottom: 30px;
+   border-radius: 10px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  
+}
+
+.loginArea{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.loginHeader{
+   width: 100%;
+   padding: 15px;
+   background-color: #fff;
+   color: white;
+   text-align: center;
+   letter-spacing: 1.2px;
+}
+
+.loginHeader h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+form{
+   margin: 1.5rem;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+}
+
+form label{
+   display: inline-block;
+}
+
+form h2{
+   font-size: 1.4rem;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+form input{
+   padding: 15px;
+   margin-bottom: 15px;
+   border: 0;
+   border-radius: 8px;
+   background-color: #fafafa;
+   caret-color: #0A80D5;
+   
+}
+
+form input:focus{
+   outline: 0;
+   border: 2px solid #0A80D5;
+}
+
+form .botaoEntrar{
+   padding: 2px;
+   cursor: pointer;
+   background-color: #0A80D5;
+   border-radius: 8px;
+   color: white;
+   line-height: 35px;
+   margin-top: 10px;
+   border: none;
+   font-size: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logoSite{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.logoSite img{
+   width: 110px;
+   height: 110px;
+   margin-bottom: 20px;
+}
+
+.logoSite h1{
+   color: #333;
+}
+
+.completarCadastroAgencia{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2em;
+}
